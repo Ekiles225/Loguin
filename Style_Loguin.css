@@ -1,0 +1,75 @@
+body{
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(0deg,rgba(65, 13, 255, 0), rgb(0, 0, 219));
+    background-repeat: repeat-x;
+}
+
+#loguin{
+    border-style: solid;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+.logo{
+   margin-left: 30%;
+   margin-top: 9%;
+}
+.logo img{
+    background-size: cover;
+    border-radius: 50%;
+    width: 140px;
+}
+
+.usser{
+    margin-left: 25%;
+    margin-top: 20px;
+    border-bottom-style: solid;
+    width: 180px;
+    border-width: 1px;
+}
+.usser input{
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.password{
+    margin-left: 25%;
+    margin-top: 30px;
+    border-bottom-style:solid;
+    width: 180px;
+    border-width: 1px;
+}
+.password input{
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.remenber{
+    margin-top: 15px;
+    margin-left: 25%;
+}
+
+.seccion{
+    margin-top: 40px;
+    margin-left: 25%;
+}
+.seccion input{
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.seccion input:hover{
+    background-color: rgba(0, 0, 255, 0.445);
+    color: white;
+    transition: 1s;
+}
+b{
+    opacity: 0.5;
+    font-size: 13px;
+    margin-left: 10px;
+}
